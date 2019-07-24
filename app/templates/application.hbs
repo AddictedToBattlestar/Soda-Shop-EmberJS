@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="vending-machine-body">
+  <header>
+    <Header></Header>
+  </header>
+  <aside>
+    <SodaBrandSelector></SodaBrandSelector>
+    <SodaListing></SodaListing>
+  </aside>
+  <main>
+    <SodaDetail>
+      {{outlet}}
+    </SodaDetail>
+  </main>
+  <footer>
+    <Footer></Footer>
+  </footer>
+</div>

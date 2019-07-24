@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  h2 {
+    flex: 100%;
+  }
+  div:nth-child(2) {
+    flex: 500px;
+  }
+  div:nth-child(3) {
+    flex: 400px;
+  }
+}
