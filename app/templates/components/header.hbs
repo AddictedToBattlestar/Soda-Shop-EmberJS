@@ -1,5 +1,5 @@
 <div class="header">
   <h2>Soda shop</h2>
-  <CoinSlot></CoinSlot>
-  <VendingMachineDisplay></VendingMachineDisplay>
+  <CoinSlot @onCoinInsertion={{this.processCoinInsertion}}></CoinSlot>
+  <VendingMachineDisplay @displayText="INSERT COIN"></VendingMachineDisplay>
 </div>

@@ -13,7 +13,7 @@ html {
 .vending-machine-body {
   display: grid;
   grid-template-columns: 350px auto;
-  grid-template-rows: 40px auto 25px;
+  grid-template-rows: 50px auto 25px;
   grid-template-areas:
     "header header"
     "aside main"
@@ -38,13 +38,6 @@ html {
     grid-area: aside;
     overflow-y: auto;
     background-color: #141414;
-
-    .soda-brand-selector {
-      background-color: #201f1f;
-    }
-    .soda-listing {
-      padding: 5px 0;
-    }
   }
   
   main {
@@ -66,7 +59,7 @@ html {
     color: #E15021;
   }
   
-  .soda-selected {
+  .soda-brand-selected {
     background-color: #3273C5;
   }
 }

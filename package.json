@@ -25,7 +25,7 @@
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
     "ember-bootstrap": "^3.0.0-rc.1",
-    "ember-cli": "github:ember-cli/ember-cli#7236dea91a0951c9011bb80d156aadc5336da999",
+    "ember-cli": "github:ember-cli/ember-cli#3106301154f397d151f6f56007ab4317a5498fa5",
     "ember-cli-app-version": "^3.2.0",
     "ember-cli-babel": "^7.8.0",
     "ember-cli-dependency-checker": "^3.0.0",
@@ -43,13 +43,13 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.1.2",
     "ember-resolver": "^5.1.3",
-    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/9951eea116491f5878eef2211b5b95625261e444.tgz",
+    "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/8179b69eecd98ba53c4d0bbaa6e9c3dc892a93f2.tgz",
     "ember-welcome-page": "^3.2.0",
     "eslint-plugin-ember": "^6.0.1",
     "eslint-plugin-node": "^8.0.1",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0",
-    "sass": "^1.22.7"
+    "sass": "^1.22.9"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
