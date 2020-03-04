@@ -6,6 +6,16 @@ const Router = EmberRouter.extend({
   rootURL: config.rootURL
 });
 
-Router.map(function() {});
+Router.map(function() {
+  this.route('soda-brand', {
+    path: '/'
+  }, function() {
+    this.route('soda-brand', {
+      path: '/:soda-brand_id'
+    }, function() {
+      this.route('soda');
+    })
+  });
+});
 
 export default Router;
